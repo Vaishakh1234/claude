@@ -5,6 +5,7 @@ My Claude Code mods. Each one is a standalone plugin under `mods/`, and the repo
 | Mod | What it does |
 | --- | --- |
 | [agents-hud](mods/agents-hud) | Progress bar above the prompt and a live agents panel (`/agents-hud`) with model, progress, context, cost and time for every subagent. |
+| [mcp-hud](mods/mcp-hud) | MCP sidebar (`/mcp-hud`): every MCP server in the chat with its status, tools, context cost and live call counts. |
 
 ## Connect it to Claude Code
 
@@ -16,6 +17,10 @@ claude plugin marketplace add ~/Desktop/web-development/personal/claude
 
 ```bash
 claude plugin install agents-hud@vaishakh-claude
+```
+
+```bash
+claude plugin install mcp-hud@vaishakh-claude
 ```
 
 Start a new session afterwards. The plugin is read straight from this folder: after editing a mod, start a new session (or run `/reload-plugins` in a terminal session) to pick it up.

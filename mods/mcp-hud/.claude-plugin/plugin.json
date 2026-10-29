@@ -1,0 +1,17 @@
+{
+  "name": "mcp-hud",
+  "version": "0.1.0",
+  "description": "MCP sidebar (/mcp-hud): every MCP server in the chat with its status, tools, context cost and live call counts.",
+  "author": { "name": "Vaishakh1234", "url": "https://github.com/Vaishakh1234" },
+  "repository": "https://github.com/Vaishakh1234/claude",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "openOnStart": {
+      "type": "string",
+      "title": "Open the MCP sidebar when a session starts",
+      "description": "yes: open it in every new session; no: only with /mcp-hud",
+      "default": "no",
+      "options": ["no", "yes"]
+    }
+  }
+}
