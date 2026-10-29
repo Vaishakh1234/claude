@@ -1,0 +1,14 @@
+{
+  "name": "vaishakh-claude",
+  "owner": { "name": "Vaishakh1234", "url": "https://github.com/Vaishakh1234" },
+  "metadata": { "description": "Vaishakh's Claude Code mods." },
+  "plugins": [
+    {
+      "name": "agents-hud",
+      "source": "./mods/agents-hud",
+      "description": "Mod: progress bar above the prompt and a live agents panel with model, progress, context, cost and time for every subagent.",
+      "version": "0.1.0",
+      "category": "mod"
+    }
+  ]
+}

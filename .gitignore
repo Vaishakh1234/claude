@@ -1,0 +1,13 @@
+# env — every env file is ignored; only *.example is tracked
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# written by Claude Code when it loads a mod
+.claude-plugin/types/
+mods/*/.claude-plugin/types/
+
+node_modules/
+.DS_Store
+*.log
