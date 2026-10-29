@@ -1,0 +1,24 @@
+{
+  "name": "agents-hud",
+  "version": "0.1.0",
+  "description": "Progress bar above the prompt and a live agents panel (/agents-hud): every subagent with model, progress, context, tokens, estimated cost and time.",
+  "author": {
+    "name": "Vaishakh1234",
+    "url": "https://github.com/Vaishakh1234"
+  },
+  "repository": "https://github.com/Vaishakh1234/claude",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "autoOpen": {
+      "type": "string",
+      "title": "Open the agents panel",
+      "description": "agents: when the first subagent of the session starts or a plan is reported; plan: only when a plan is reported; never: only with /agents-hud",
+      "default": "agents",
+      "options": [
+        "agents",
+        "plan",
+        "never"
+      ]
+    }
+  }
+}
